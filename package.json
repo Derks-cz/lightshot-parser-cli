@@ -1,0 +1,19 @@
+{
+  "name": "lightshot-parser-cli",
+  "version": "1.0.0",
+  "description": "Cli for parse images",
+  "main": "index.js",
+  "bin": {
+    "l-parser": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["Cli","parser","screenshot","lightshot"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^9.4.0",
+    "lightshot-parser": "^1.0.2"
+  }
+}
