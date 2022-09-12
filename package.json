@@ -6,11 +6,16 @@
   "bin": {
     "l-parser": "./index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Derks-cz/lightshot-parser-cli.git"
+  },
+  "homepage": "https://github.com/Derks-cz/lightshot-parser-cli#readme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["Cli","parser","screenshot","lightshot"],
-  "author": "",
+  "keywords": ["cli","parser","screenshot","lightshot"],
+  "author": "Derks",
   "license": "ISC",
   "dependencies": {
     "commander": "^9.4.0",
